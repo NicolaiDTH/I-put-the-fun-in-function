@@ -1,1 +1,7 @@
-var randomNumber = Math.floor( Math.random() * 6) + 1;
+function getRandomNumber(upper) {
+ var randomNumber = Math.floor( Math.random() * upper) + 1;
+ alert(randomNumber);
+}
+
+//getRandomNumber(6);
+
